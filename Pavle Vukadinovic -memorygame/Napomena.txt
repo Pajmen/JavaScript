@@ -1,0 +1,4 @@
+Napomena: 
+
+Igru memorije sam napravio sa brojevima jer mi se to bas lepo slagalo sa pozadinom.
+Ako neko zeli da proba sa znakovima koje je profesor prilozio, treba da odkomentarise redove  112 i 113 u fajlu main.js, a zakomentarise red 114.

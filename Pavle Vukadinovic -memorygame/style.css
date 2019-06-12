@@ -1,0 +1,97 @@
+*{
+	margin:0;
+	padding: 0;
+	box-sizing: border-box
+
+}
+body{
+	background-image: url("img/memory 04.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+
+}
+main, header{
+	
+	
+}
+header{
+	width: 800px;
+	margin: 50px auto;
+	
+	display: flex;
+	justify-content: space-between;
+	font-size: 2em;
+	font-weight: bolder;
+	color: white;
+	width: 800px;
+	margin: 50px auto;
+	
+}
+.point {
+	font-size: 2em;
+	font-weight: bolder;
+	color: white;
+	width: 800px;
+	margin:auto;
+}
+input {
+	/*height: 2em;*/
+	font-size: 0.8em;
+	font-weight: bold;
+	color: white;
+	padding-top: 5px;
+	background: transparent;
+}
+button{
+	font-size: 20px;
+
+	
+}
+main {
+
+	margin: 50px auto;
+	width: 600px;
+    height: 600px;
+    
+    box-sizing: border-box;
+}
+.box{
+	width: 150px;
+	height: 150px;
+	box-sizing: border-box;
+	border: 1px solid black;
+	float: left;
+	position: relative;
+	background-size: cover;
+}
+.back {
+   width: 150px;
+	height: 150px;
+	box-sizing: border-box;
+	border: 1px solid #eee;
+	position: absolute;   /*imacemo front i back jedan preko drugog pa mora bude absolute*/
+	/* transform: perspective(900px) rotateY(180deg);
+	backface-visibility: hidden;
+	transition: transform 0.7s linear; */
+	font-size: 8em;
+    text-align: center;
+    line-height: 150px;
+    font-weight: bolder;
+    visibility: hidden;
+	
+}
+.front {
+   width: 150px;
+	height: 150px;
+	box-sizing: border-box;
+	border: 1px solid #eee;
+	position: absolute;   /*imacemo front i back jedan preko drugog pa mora bude absolute*/
+	/* backface-visibility: hidden;
+	transition: transform 0.7s linear; */
+	background-color: orange;
+	visibility: visible;
+	font-size: 8em;
+    text-align: center;
+    line-height: 150px;
+    font-weight: bolder;
+}
